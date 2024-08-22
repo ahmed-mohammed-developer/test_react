@@ -1,0 +1,37 @@
+.footer {
+    margin-top: 5rem;
+}
+.main-footer {
+    padding-block: 5rem;
+    background-color: #2d2f31;
+}
+.imgSection img{
+    max-width: 15rem;
+    width: 100%;
+    height: auto;
+}
+.deatelsSection h3 {
+   font-family: "FFShamelFamily-SansOneBold", sans-serif;
+   font-size: 1.4rem;
+   color: #fff;
+   font-weight: 500;
+   line-height: 1.9rem;
+   padding-bottom: 2.5rem;
+}
+.deatelsSection p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #fff;
+}
+.deatelsSection a {
+    text-decoration: none;
+}
+.footericon {
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+    color: #fff;
+    padding-inline: 1rem;
+}
+.marginBottom{
+    margin-bottom: 5rem;
+}

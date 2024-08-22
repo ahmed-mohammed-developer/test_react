@@ -1,0 +1,115 @@
+nav {
+    background-color: #fff;
+    height: 10rem;
+    border-bottom: 0.5px solid #2d2f31;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+}
+.navbar img{
+    width: 10rem;
+    height: auto;
+    border-radius: 0.5rem;
+    cursor: pointer;
+   
+}
+.custom-navlink {
+    color: #2d2f31;
+    text-decoration: none;
+}
+.active-navItem {
+    color: #6cee69;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* ظل النص باللون الأسود مع شفافية */
+}
+  
+@media (width < 785px) {
+  
+   .nav-top form {
+   width: 30rem;
+   }
+   .nav-top input {
+    width: 20rem;
+   }
+    }
+    @media (width < 590px) {
+        nav {
+            height: 8rem;
+        }
+        .navbar {
+            height: 8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline: 2rem;
+            z-index: 1000;
+            width: 100%;
+        }
+        .nav-top  {
+        display: none;
+        }
+         }
+    .pages {
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    }
+    .pages ul {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0 !important;
+        padding-left: 0 !important;
+    }
+    .pages ul li {
+        list-style-type: none;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.2rem;
+        cursor: pointer;
+        color: #2d2f31;
+    }
+    @media (width < 590px) {
+        .pages {
+            display: none;
+        }
+    }
+    .mobil-nav {
+        position: absolute;
+        top: 22.5rem;
+        left: 50%;
+        max-width: 90%;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        background-color: #fff;
+        transform: translate(-50%, -50%);
+    }
+    
+    .mobil-nav ul {
+        margin: 0  !important;
+        padding: 1rem 2rem 2rem 2rem !important;
+    }
+    .mobil-nav ul li {
+        list-style-type: none;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.2rem;
+        cursor: pointer;
+        color: #fff;
+        margin-block: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .fa-solid {
+        font-size: 2rem;
+        color: #2d2f31;
+        cursor: pointer;
+    }
+    @media (width > 590px) {
+        .disNon {
+            display: none;
+        }
+    }

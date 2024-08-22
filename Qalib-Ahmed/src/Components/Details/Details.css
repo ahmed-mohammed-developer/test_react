@@ -1,0 +1,148 @@
+.details{
+    margin: 5rem 2rem 2rem;
+}
+.title-qalib {
+    margin-bottom: 1rem;
+}
+.title-qalib h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    color: #2d2f31;
+    font-family: "FFShamelFamily-SansOneBold", sans-serif;
+}
+.title-qalib p {
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    cursor: pointer;
+    color: #2d2f31;
+}
+
+.details img {
+    width: 100%;
+   height: 100%;
+   max-width: 99.6rem;
+   max-height: 66.5rem;
+   border-radius: 0.5rem;
+   padding-bottom: 2.5rem;
+
+}
+.text-det {
+    border: 2px solid #2d2f31;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.text-det h2 {
+    font-family: "FFShamelFamily-SansOneBold", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    margin-block: 2rem;
+}
+.text-point {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    line-height: 3.4rem;
+
+}
+.text-point p {
+    font-size: 1.6rem;
+    color: #2d2f31;
+    margin-bottom: 0 !important;
+    font-weight: 400;
+}
+.text-icon {
+    border: 2px solid #2d2f31;
+    margin-block: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    padding: 1rem;
+}
+.text-icon:hover {
+   transition-duration: 1s;
+    background-color: #2d2f31;
+    color: #fff;
+}
+.text-icon p {
+    font-family: "FFShamelFamily-SansOneBold", sans-serif;
+    margin-bottom: 0 !important;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.text-icon i {
+    font-size: 2rem;
+}
+.text-icon:hover i {
+    transition-duration: 1s;
+    background-color: #2d2f31;
+    color: #fff;
+}
+.description h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.3rem;
+}
+.description p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.hdes {
+    margin-top: 5rem;
+}
+.tech {
+    list-style-type: disc;
+    display: list-item;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.category-container {
+    display: flex;
+    gap: 20px; /* يمكنك تعديل المسافة حسب الحاجة */
+    flex-wrap: wrap; /* يتيح للعناصر الانتقال إلى سطر جديد */
+}
+
+.category {
+    margin: 0;
+    padding: 10px 15px; /* يمكنك تعديل الحواف حسب الحاجة */
+    border-radius: 48px; /* زوايا مستديرة اختيارية */
+    border: 1px solid #2d2f31;
+    font-weight: 500;
+    cursor: pointer;
+    word-wrap: break-word; /* يكسر الكلمات الطويلة وينقلها إلى سطر جديد */
+    white-space: normal; /* يتيح للنص الانتقال إلى سطر جديد */
+}
+
+  .category:hover {
+    background-color: #eeeeef  ;
+    transition-duration: 1s;
+  }
+.OtherTemplates-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    color: #2d2f31;
+    font-family: "FFShamelFamily-SansOneBold", sans-serif;
+    margin-top: 5rem;
+}
+@media (width < 992px) {
+    .text-det {
+        display: none;
+    }
+}
+@media (width < 298px) {
+    .title-qalib h2 {
+        font-size: 1.6rem;
+    }
+    .title-qalib p{
+        font-style: 1rem;
+    }
+    .text-icon p {
+        font-size: 1rem;
+    }
+}

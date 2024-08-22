@@ -1,0 +1,50 @@
+.contact {
+    margin-inline: 2rem;
+}
+.section-container {
+    margin-block: 5rem;
+}
+.BoxShadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 1rem;
+}
+.map-location iframe {
+    border-radius: 0.5rem;
+    margin-top: 6rem;
+}
+.contact-form-desgin {
+    padding: 3rem ;
+}
+.contact-form input,
+.contact-form textarea,
+.custom-select{
+    border-radius: 0.5rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.contact-form input,
+.custom-select{
+    height: 5rem;
+}
+.button-submit {
+    margin-top: 2rem;
+}
+.button-submit p {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: #2d2f31;
+    color: #fff;
+    padding: 1rem;
+    max-width: 50%;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.button-submit p:hover {
+    background-color: #6cee69;
+    transition-duration: 1s;
+}
